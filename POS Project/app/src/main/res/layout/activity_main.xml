@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonShowCustomDialog"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="131dp"
+        android:background="#07D4A9"
+        android:onClick="exit"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Game Over"
+        android:textColor="#fff"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonShowCustomDialog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
